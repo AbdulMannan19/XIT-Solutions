@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+}
+
+#rectangle_1 { 
+    width: 500px; 
+    height: 1100px;
+    background-color: rgb(75, 110, 141);
+}
+
+#rectangle_2 { 
+    width: 2000px; 
+    height: 150px;
+    background-color: rgb(46, 81, 104);
+    margin: 10px;
+}
+
+#rectangle_3 {
+    width: 650px;
+    height: 250px;
+    background-color: rgb(83, 85, 143); 
+    margin: 10px;
+}
+
+#rectangle_4 {
+    width: 650px;
+    height: 250px;
+    background-color: rgb(28, 17, 113); 
+    margin: 10px;
+}
+
+#rectangle_5 {
+    width: 985px;
+    height: 250px;
+    background-color: rgb(107, 104, 126); 
+    margin: 10px;
+}
+
+#rectangle_6 {
+    width: 600px;
+    height: 370px;
+    background-color: rgb(107, 104, 126); 
+    margin: 10px;
+}
+
+#rectangle_7 {
+    width: 1375px;
+    height: 370px;
+    background-color: rgb(107, 104, 126); 
+    margin: 10px;
+}
