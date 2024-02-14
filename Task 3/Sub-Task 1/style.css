@@ -1,0 +1,44 @@
+#rectangle_1 { 
+    width: 100vw; 
+    height: 10vh;
+    background-color: rgb(201, 31, 50);
+}
+
+#rectangle_2 { 
+    width: 100vw; 
+    height: 30vh;
+    background-color: rgb(204, 136, 146);
+}
+
+#rectangle_7 { 
+    width: 22.7vw; 
+    height: 25vh;
+    background-color: rgb(155, 91, 91);
+    margin: 1vh 1vw;
+}
+
+#rectangle_8 { 
+    width: 72vw; 
+    height: 5vh;
+    background-color: rgb(217, 142, 142);
+    margin: 1vh 1vw;
+}
+
+#rectangle_9 { 
+    width: 72vw; 
+    height: 19vh;
+    background-color: rgb(155, 91, 91);
+    margin: 1vh 1vw;
+}
+
+.container {
+    display: flex;
+    
+}
+
+.rectangle {
+    width: 23vw;
+    height: 20vh;
+    background-color: rgb(90, 63, 63); 
+    margin: 1vh 1vw;
+} 
