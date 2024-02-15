@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div style="display: flex; flex-direction: row; justify-content: center; align-items: center; height: 90vh; margin: 100px ;">
+
+        <div class="px-auto py-4"
+            style="width: 650px; min-height: 550px; background-color: rgb(255, 255, 255); border: 1px dashed #1CBCB4;">
+            <h2 class="pt-4"
+                style="padding: 25px;font-family:Microsoft Sans Serif, Geneva, sans-serif; font-weight: 180; font-size: 30px;">
+                Tell us about your home.</h2>
+            <p class="px-5"
+                style=" font-size: 100%; "><span style="color:#1CBCB4; font-size: x-large ;">Address </span> YOUR INFROMATION IS PRIVATE</p>
+            <form class="mx-5">
+                <div class="col">
+                    <div class="form-row">
+                        
+                      <div class="form-group">
+                        <label for="inputAddress">Address </label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                      </div>
+                      <div class="form-group mt-2">
+                        <label for="inputAddress2">Address 2</label>
+                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                      </div>
+
+                      <div class="row mt-3">
+                        <div class="col-5">
+                            <label for="inputCity">City</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="col">
+                            <label for="inputState">State</label>
+                            <select id="inputState" class="form-control">
+                                <option selected>State</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                        <div class="col">
+                            <label for="inputZip">Zip</label>
+                            <input type="text" class="form-control" id="inputZip">
+                        </div>
+                      </div>
+                      <hr style="border-top: 2px dashed #1CBCB4;">
+                      </div>
+                      <p class="px-1"
+                      style=" font-size: 100%; text-align: left;"><span style="color:#1CBCB4; font-size: x-large ;">Bed & Bath </span> WHAT IS YOUR HOME LIKE</p>
+
+
+                    
+                      
+                      <div class="grid__container">
+                        <div class="item1">
+                            <label for="homeType">Home Type</label>
+                            <select name="homeType" id="home__type">
+                                <option value="house">House</option>
+                            </select>
+                        </div>
+                        <div class="item2">
+                            <label for="roomType">Room Type</label>
+                            <select name="roomType" id="room__type">
+                                <option value="house">Entire house/apt</option>
+                            </select>
+                        </div>
+                        <div class="item3">
+                            <label for="bedrooms">Bedrooms</label>
+                            <select name="bedrooms" id="bedrooms">
+                                <option value="bedrooms">1 bedroom</option>
+                            </select>
+                        </div>
+                        <div class="item4">
+                            <label for="bathrooms">Bathrooms</label>
+                            <select name="bathrooms" id="bathrooms">
+                                <option value="bathrooms">1 bathroom</option>
+                            </select>
+                        </div>
+                    </div>
+
+                            <div class="grid__container2 mt-2">
+                                <div class="col1">
+                                    <label for="king">King</label>
+                                    <select name="king" id="king">
+                                        <option value="zero">0</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </div>
+                                <div class="col2">
+                                    <label for="queen">Queen</label>
+                                    <select name="queen" id="queen">
+                                        <option value="zero">0</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </div>
+                                <div class="col3">
+                                    <label for="full">Full</label>
+                                    <select name="full" id="full">
+                                        <option value="zero">0</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </div>
+                                <div class="col4">
+                                    <label for="twin">Twin</label>
+                                    <select name="twin" id="twin">
+                                        <option value="zero">0</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </div>
+                            </div>
+                
+
+                        
+                    
+                    <button type="submit" class="mt-4" style="font-size: 15px; background-color: #E22D7A; border: none; width: 35rem; height: 5vh; color: white;">Sign me up!</button>
+
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

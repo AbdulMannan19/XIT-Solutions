@@ -1,0 +1,38 @@
+.circular-div {
+    width: 75px;
+    height: 75px;
+    background-color: #EEEEEE;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 10px auto;
+}
+
+.card-title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 105%;
+}
+
+.card-text {
+    color: #a6a2a2;
+    font-size: 65%;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.card-link{
+    font-size: 75%;
+    text-decoration: none;
+    color:#4181C1
+}
