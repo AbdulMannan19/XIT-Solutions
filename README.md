@@ -16,5 +16,3 @@ Contributing to the projects at XIT Solutions.
 
 Feel free to explore my journey and the solutions I come up with!
 
-
-![XIT Solutions Logo](https://github.com/AbdulMannan19/XIT-Solutions/assets/72088166/247925c6-9341-42e4-98c4-fdd111936471)
